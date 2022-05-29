@@ -32,4 +32,51 @@ body{
 			align-items: center;
 		}
 
+		.cn{
+    	display:flex;
+    	flex-wrap: wrap;
+    	flex-direction:column;
+    	justify-content:center;
+    	align-items:center;
+    	padding:2%;
+		}
 		
+		.cn>div{
+		    flex:1;
+		}
+		.cn>.pay{
+		    display:flex;
+		    justify-content:center;
+		    align-items:center;
+		    color:#fafafa;
+		    margin-right:auto;
+		    margin-bottom:2%;
+		}
+		.cn>.pay>span{
+		    background-color:#4f5788;
+		    border-radius:50px;
+		    font-size:16px;
+		    padding:5px;
+		}
+		.cn>img{
+		    flex:2;
+		    width:70%;
+		    height:100%;
+		}
+		.af{
+		    display:flex;
+		    justify-content:center;
+		    align-items:center;
+		}
+
+
+		.cab{
+		    position:relative;
+		}
+		.cab>p{
+		    position:absolute;
+		    bottom:0px;
+		    left:50%;
+		    transform:translateX(-50%);
+		}
+				
