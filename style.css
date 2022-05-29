@@ -1,0 +1,35 @@
+body{
+			background-color: #FBFBFB;
+			font: 'NanumSquareOTF';
+		}
+
+		section{
+			margin: 20px 0;
+			text-align: center;
+			margin-left: auto; margin-right: auto;
+			}
+
+		.col{
+			background: #F1F2F8;
+			text-align: center;
+			border-radius: 7px;
+			flex: 1;
+			margin: 5px;
+			padding: 22% 0;
+			}
+
+		.rewe{
+			background-color: #fff;
+			border: 1px; 
+			border-bg-color : #959595;
+			border-style: solid;
+			border-radius: 20px;
+			text-align: center;
+			align-content: center;
+			padding: 5px;
+			margin-left: auto; margin-right: auto;
+			justify-content: center; 
+			align-items: center;
+		}
+
+		
