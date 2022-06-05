@@ -15,18 +15,39 @@
 			color :#3D3D3D;
 		}
 		input{
-			width: 100%;
 			border-style: none;
 			background-color: #FBFBFB;
 			font-size: 18px;
 			text-color: #6D6D6D; 
 			padding: 3px;
 		}
+		#form{
+			border-style: hidden;
+			background-color: fbfbfb;
+			margin-left: 7px;
+		}
+		
 		.mr>button{
 			margin-right: 10px;
 		}
 		.mr>button:last-child{
 			margin-right:0;
+		}
+		.rok{
+			background-color: #DFE2F3;
+			border-radius: 15px;
+			max-height: 61px;
+			max-width: 400px;
+			text-align: center; 
+			top: 36%;
+			height: 341px;
+			font-size: 20px;
+			color: #000;
+			align-items: center;
+			justify-items: center;
+			justify-content: center;
+			margin: 0 auto; 
+			transform: translateY(-50%);
 		}
 
 
@@ -41,8 +62,7 @@
 	</div>
 	
 	<div>
-		<form id="form">
-
+		<form id="form" onclick style="border-bottom-style : 2px solid #42496c; ">
 			<input type="text" placeholder="제목" style="color: #6D6D6D;"> 
 			<div style="position:relative;">
 				<input type="text" placeholder="위치" style="color: #6D6D6D; width: 100%;"> 
@@ -74,18 +94,22 @@
 			<img src="icon/group 17.png" input type="file"> </button> 
 		<button style="border-style:none; background-color:rgba(0, 0, 0, 0);">
 			<img src="icon/group 17.png" input type="file"> </button> 
+
 	</div>
 
-	<p style="position: relative; top:28%">여기 문제 있음  </p>
 
-	<div style="position: relative; top: 30%;">
-		<p style="position:relative;"> 개인정보 수집 및 이용 동의 
-			<img src="icon/group 134.png" style="position: absolute; top: 50%; transform: translateY(-50%); padding-left: 5px;"> </p> 
-		<div>
-			<input type="radio" style="position:absolute; top:50%; transform:translateY(-50%); font-size: 9px; "> 
-			<p style="font-size:9px; "> 동의 </p> </input>
-		</div>
-	</div>
+	<div style="display:flex; justify-content:space-between; position:relative; top:30%;">
+        <div style="display:flex; align-items:center;">
+        <p> 개인정보 수집 및 이용 동의</p>
+        <img src="icon/group 134.png" style="margin-left: 4px;">
+        </div>
+
+        <div style="display:flex; align-items:center; flex:none; text-align:center;">
+            <input type="radio" style="margin-right: 4px;"> 
+            <p style="font-size:9px; flex:none;"> 동의 </p> 
+        </div>
+    </div>
+
 
 	<div style=" border: 1px solid #EAEAEA; position: relative; top: 31%;"> </div>
 
@@ -93,12 +117,6 @@
 	<div class="rok" style="position: relative;">
 		<p style=" text-align:center; line-height:23px; align-items:center; transform: translateY(70%);"> 등록 </p>
 	</div>
-
-
-
-
-
-
 
 </body>
 
