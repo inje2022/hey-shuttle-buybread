@@ -18,6 +18,14 @@ body{
 			padding: 22% 0;
 			}
 
+		.cul{
+			background: #F1F2F8;
+			border-radius: 7px;
+			margin: 5px;
+			padding: 3% 0;
+
+		}
+
 		.rewe{
 			background-color: #fff;
 			border: 1px; 
@@ -27,7 +35,18 @@ body{
 			text-align: center;
 			align-content: center;
 			padding: 5px;
-			margin-left: auto; margin-right: auto;
+			margin-left: auto; 
+			margin-right: auto;
+			justify-content: center; 
+			align-items: center;
+		}
+
+		.deo{
+			text-align: center;
+			align-content: center;
+			padding: 0 3%;
+			margin-left: auto; 
+			margin-right: auto;
 			justify-content: center; 
 			align-items: center;
 		}
