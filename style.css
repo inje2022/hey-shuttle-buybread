@@ -98,7 +98,52 @@ body{
 		    left:50%;
 		    transform:translateX(-50%);
 		}
+		.hasam{
+			color: #000;
+			font-size: 18px;
+			line-height: 21px;
+			flex: 1;
+		}
+		.dhksfy{
+			background-color: #4F5788;
+			color: #F1F2F8;
+			font-size: 16px;
+			width: 55px;
+			margin: 10px 0;
+			padding-top: 10px;
+			max-height: 40px;
+			border-radius: 10px;
+			text-align: center;
+			align-items: center;
+			justify-items: center;
+		}
+		.jaechok{
+			background-color: #f1f2f8;
+			border-radius: 31px;
+			color: #000;
+			font-size: 16px;
+			position: relative;
+			top: 38%;
+			padding: 10px; 
+			max-width: 210px;
+			max-height: 37px;
+			text-align: center;
+			left: 20%;
+		}
+		.ok{
+			background-color: #AEB7EC;
+			color: #000;
+			font-size: 20px;
+			border-radius: 15px;
+			position: relative;
+			top: 41%;
+			padding: 15px 0px;
+			max-width: 342px;
+			max-height: 70px;
+			text-align: center;
+			left: 4%;
 
+		}
 
 		
 
