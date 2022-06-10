@@ -22,3 +22,8 @@ body{
 		margin-left: 85%;
 		transform: translateY(-190%);
 	}
+	.nn{
+		background-color: #fff;
+		border: 1px solid #42496c; 
+		border-radius: 9px;
+		margin: 3%;
